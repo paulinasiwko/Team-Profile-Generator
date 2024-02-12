@@ -126,6 +126,23 @@ async function main() {
 
       const generatedHtml = render(employees)
       console.log(generatedHtml)
+
+      const directoryName = "output"
+      if (!fs.existsSync(directoryName)) {
+        // If not, create the directory
+        fs.mkdirSync(directoryName);
+        console.log(`Directory "${directoryName}" created successfully.`);
+      } else {
+        console.log(`Directory "${directoryName}" already exists.`);
+      }
+      
+      fs.writeFile("./output/team.html", generatedHtml, err => {
+        if (err) {
+          console.error(err);
+        } else {
+          // file written successfully
+        }
+      })
 }
 
 main();
