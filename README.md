@@ -8,10 +8,10 @@ N/A
 
 ## Usage
 
-Open the downloaded repository using VS Code or your preferred terminal.
-In the terminal, type the command node index.js to initiate the application.
-Answer the questions prompted in the terminal.
-Once you've completed all the prompts, the team.html file will be generated in output folder in the current directory.
+- Open the downloaded repository using VS Code or your preferred terminal.
+- In the terminal, type the command node index.js to initiate the application.
+- Answer the questions prompted in the terminal.
+- Once you've completed all the prompts, the team.html file will be generated in output folder in the current directory.
 
 ![A screenshot of the deployed application](./screenshot.PNG)
 
